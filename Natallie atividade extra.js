@@ -41,15 +41,23 @@ let numeros = [10, 20, 30, 40];
 //Peça ao usuário para inserir vários números separados por vírgula. Depois, exiba os números ordenados de forma crescente no console.
 
 //📌 Exemplo:
-//Entrada: 8, 3, 5, 1, 9  
-//Saída: 1, 3, 5, 8, 9 
+//Entrada: 8, 3, 5, 1, 9
+//Saída: 1, 3, 5, 8, 9
 //-----------------------------------------------------------------------*/
+
+//ATV 01
+const imparpar = (num) => {
+  return num % 2 == 0 ? "O número é par!" : "O número é ímpar!";
+};
+console.log(imparpar(10));
+console.log(imparpar(3));
+console.log(imparpar(2));
 
 //ATV 02
 var tabuada = 6;
 console.log(tabuada, "x 1 =", tabuada * 1);
 console.log(tabuada, "x 2 =", tabuada * 2);
-console.log(tabuada, "x 3 =", tabuada * 3); 
+console.log(tabuada, "x 3 =", tabuada * 3);
 console.log(tabuada, "x 4 =", tabuada * 4);
 console.log(tabuada, "x 5 =", tabuada * 5);
 console.log(tabuada, "x 6 =", tabuada * 6);
@@ -61,4 +69,11 @@ console.log(tabuada, "x 10 =", tabuada * 10);
 //ATV 03
 console.log("Fatorial de 5! =", 5 * 4 * 3 * 2 * 1);
 
+//ATV 04. Soma dos Números de um Array
+let numeros = [10, 20, 30, 40];
+numeros[0] + numeros + [1] + numeros[2] + numeros[3];
+
 //ATV 05
+const ordemNumero = [8, 3, 5, 1, 9];
+console.log(ordemNumero);
+console.log(ordemNumero.sort());
