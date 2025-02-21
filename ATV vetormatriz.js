@@ -16,4 +16,3 @@ console.table(dados);
 
 //Mostre ao usuário os dados e de um bom dia!
 console.log("Bom dia", dados[0], "seu cpf é:", dados[1]);
-
