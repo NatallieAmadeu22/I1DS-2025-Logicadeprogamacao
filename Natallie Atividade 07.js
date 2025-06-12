@@ -10,12 +10,26 @@ Dada a matriz abaixo, faça um programa em JavaScript que exiba ao usuário os e
 */
 
 var matriz = [
-    [3, 5, 8]
-    [1, 9, 2]
-    [7, 1, 4]
+    [3, 5, 8],
+    [1, 9, 2],
+    [7, 1, 4],
 ];
-for (let diagonal = 0; diagonal < matriz.length; diagonal++) {
-    for (let coluna = 0; coluna < matriz[0].length; coluna++) (
-        console.log(`Matriz[${diagonal}][${coluna}] = ${matriz[diagonal][coluna]}`);
-)
-  };
+    for (let linha = 0; linha < matriz.length; linha++) {
+        for (let coluna = 0; coluna < matriz[0].length; coluna++) {
+          linha == coluna &&
+            console.log(Matriz[${linha}][${coluna}] = ${matriz[linha][coluna]});
+        }
+      }
+    
+
+
+
+
+
+
+
+
+
+
+    /*
+    Dada a matriz abaixo, faça um programa em JavaScript que multiplique seus elementos por um valor x e que exiba ao usuário a matriz antes e após a multiplicação.
